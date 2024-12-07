@@ -1,6 +1,5 @@
 
 def PrintNum(c, n):
-    
     if c == n:
         return
     else:

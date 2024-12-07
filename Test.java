@@ -1,6 +1,7 @@
 public class Test {
    public static void main(String[] args) {
        Testrun(4);
+       Testrun(5);
    }
    public static void Testrun(int n){
         int c = 0;
@@ -11,7 +12,7 @@ public class Test {
                 num = num + 1;
                 System.out.print(num + " ");
             }
-            System.out.println();
+            System.out.println(); 
         }
     }
 }
