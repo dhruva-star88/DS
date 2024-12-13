@@ -8,8 +8,10 @@ public class printNumRev {
     public static void NumRev(int c, int n){
         if(c>n) return;
             
-        // Function call to print(c+1) integers.
+        
+        else{// Function call to print(c+1) integers.
         NumRev(c+1,n);
         System.out.println(c);
+        }
     }
 }
