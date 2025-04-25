@@ -4,14 +4,14 @@ import java.util.ArrayList;
 
 public class mergeSort {
 
-    public static void mergeSort(int[] arr, int low, int high){
+    public static void MergeSort(int[] arr, int low, int high){
         if(low >= high){
             return;
         }
         else{
             int mid = (low + high) / 2;
-            mergeSort(arr, low, mid);
-            mergeSort(arr, mid + 1, high);
+            MergeSort(arr, low, mid);
+            MergeSort(arr, mid + 1, high);
             merge(arr, low, mid, high);
         }
     }
@@ -60,7 +60,7 @@ public class mergeSort {
         }
         System.out.println();
         
-        mergeSort(arr, 0, arr.length - 1);
+        MergeSort(arr, 0, arr.length - 1);
         
         System.out.println("After sorting: ");
         for(int i : arr){
