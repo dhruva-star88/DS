@@ -27,5 +27,7 @@ public class tUf {
             // fetching:
             System.out.println(hash[number]);
         }
+        sc.close();
     }
+
 }
