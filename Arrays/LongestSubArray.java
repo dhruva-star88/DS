@@ -1,5 +1,7 @@
 package Arrays;
 
+import java.util.HashMap;
+
 public class LongestSubArray {
     public static int longestSubArray(int[] nums, int total){
         int n = nums.length;
@@ -17,6 +19,13 @@ public class LongestSubArray {
         }
         return maxlen;
     }
+
+    // public static int LongestSubArrayBetter(int[] nums, int total){
+    //     int n = nums.length;
+    //     HashMap<Integer, Integer> map = new HashMap<>();
+
+
+    // }
 
     public static void main(String[] args) {
         int[] nums = {1, 2, 3, 4, 5};
